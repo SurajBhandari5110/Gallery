@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width:100%;
+   
+    height: 2em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-content: space-around;
+    border: 1px solid ;
+    z-index: 2;
+    font-family: 'Lora', serif;
+    font-size: 1em;
+}
+
+nav{
+    flex: 2;
+  
+   
+    display: block;
+}
+.like{
+    flex:1;
+    justify-content: flex-end;
+  
+    
+}
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 2% auto;
+    
+}
+.H{
+    flex:2;
+    margin:3px 1px;
+    font-size: 1em;
+    
+    
+}
+
+li{
+    list-style: none;
+  margin: auto;
+  padding: 2% 2%;
+    
+    
+  
+}
+
+
+.con{
+    display: flex;
+    flex-wrap:wrap;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+   
+}
+
+    
+.b1{
+    background-image: url("mee.png");
+    
+    border: 1px solid rgb(143, 87, 61) ;
+    width: 9em;
+    height: 9em;
+     background-size: contain;
+    background-repeat: no-repeat; 
+    align-content: center;
+    text-align: center;
+    
+    
+
+}
+.logo{
+    background-size: contain;
+    height:20em;
+    width: 2em;
+    background-repeat: no-repeat;
+
+    background-image: url('myPic.png');
+}
+img{
+    opacity: 0;
+    height: 8rem;
+}
+a{
+  font-size: 2em;
+
+  
+}
+.b2{
+    border: 1px solid rgb(143, 87, 61);
+    background-image: url("night.jpg");
+    width: 9em;
+    height: 9em;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.b3{
+    border: 1px solid rgb(143, 87, 61);
+    background-image: url("mem.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    width: 9em;
+    height: 9em;
+}
+.b4{
+    border: 1px solid rgb(143, 87, 61);
+    background-image: url("anime.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 9em;
+  
+    height: 9em;
+}
+.b5{
+    border: 1px solid rgb(143, 87, 61);
+    background-image: url("family.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 9em;
+  
+    height: 9em;
+    
+}
+.b6{
+    border: 1px solid rgb(143, 87, 61);
+    background-image: url("bday.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 9em;
+  
+    height: 9em;
+    
+}
+.b7{
+    border: 1px solid rgb(143, 87, 61);
+    background-image: url("pet.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 9em;
+  
+    height: 9em;
+    
+}
+.b8{
+    border: 1px solid rgb(143, 87, 61);
+    background-image: url("other.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 9em;
+  
+    height: 9em;
+    
+}
+p{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 1em;
+    color: lightblue;
+    background-color:black;
+    padding-top:0;
+    padding-bottom: 1em;
+    font-weight: 1em;
+}
+
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-size: 3em;
+    color: rgb(253, 253, 253);
+    background-color: black;
+    height: 2em;
+    font-family: 'Moon Dance', cursive;
+}
+footer{
+    background-color:black;
+    height: 2em;
+    color: rgb(230, 238, 222);
+    display: flex;
+    justify-content: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
