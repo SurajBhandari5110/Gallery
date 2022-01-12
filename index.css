@@ -118,8 +118,8 @@ a{
 }
 .b4{
     border: 1px solid rgb(143, 87, 61);
-    background-image: url("anime.jpg");
-    background-size: contain;
+    background-image: url("Anime.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     width: 9em;
   
